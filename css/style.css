@@ -382,6 +382,7 @@ img {
 
 /*mobile menu*/
 .mobile-menu {
+  display: none;
   position: fixed;
   top: 0;
   right: -300px;
@@ -410,6 +411,7 @@ img {
 
 .mobile-menu.active {
   right: 0;
+  display: block;
 }
 
 .hamburger-button .hamburger-line {
