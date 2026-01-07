@@ -386,7 +386,6 @@ img {
   position: fixed;
   top: 0;
   right: -300px;
-  right: 0;
   width: 250px;
   height: 100%;
   z-index: 100;
@@ -430,6 +429,26 @@ img {
   }
   .navbar .hamburger-button {
     display: block;
+  }
+
+  .hero .hero-content {
+    width: auto;
+  }
+
+  .testimonials .testi-heading {
+    width: auto;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pricing-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (max-width: 500px) {
